@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -5,9 +6,41 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+
 </head>
 <body>
+
+<img src="{% static 'images/django_agile.png' %}">
+
 <h1> Seja bem vindo!</h1>
+
+<p>Agora são: {{now}}</p>
+
+    <ul>
+    {% for menu in menus %}
+
+        {% if menu == "Contato" %}
+            <li><b>{{menu}}</b></li>
+        {% endif %}
+
+        {% if menu == "Vagas" %}
+            <li><b>{{menu}}</b></li>
+        {% endif %}
+
+        {% if menu == "Empresa" %}
+            <li><b>{{menu}}</b></li>
+        {% endif %}
+
+        {% if menu == "Candidatos" %}
+            <li><b>{{menu}}</b></li>
+
+        {% else %}
+            <li> {{ menu }} </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
 </body>
 </html>

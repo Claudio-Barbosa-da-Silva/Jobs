@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '!x$052b3hh*ln-hch&%o3#zs#^9ek&w*rf(qo%d5!mshlmi8sm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# OBS1 - DEBUG com valor True é quando estamos na fase de desenvolvimento
+# OBS2 - DEBUG com valor False é quando estamos na fase de produção(publicado e no AR)
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,7 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'vagas',
     'empresa',
-    ''
+    'candidato',
+    'crispy_forms',
+
+
 ]
 
 MIDDLEWARE = [
@@ -57,7 +62,7 @@ ROOT_URLCONF = 'vagas_de_emprego.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,4 +125,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/'  # usado durante o desenvolvimento
+
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # usado durante a procução
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+) # usado durante a procução
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGOUT_REDIRECT_URL = 'index'
+

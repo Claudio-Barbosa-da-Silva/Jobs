@@ -15,9 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from vagas.views import index
+from vagas.views import index, listagem, cria_vagas
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', index),
+    path('vagas', listagem, name = 'url_listagem'),
+    path('criar', cria_vagas, name='url_criar'),
+    path('', index, name='index')
+
+
+    #path('index/', name='index')
 ]

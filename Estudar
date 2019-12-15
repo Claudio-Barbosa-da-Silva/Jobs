@@ -1,0 +1,15 @@
+- Model form --> pra renderizar os formularios
+- View --> para pegar os modelforms | manda e recebe (GET e POST) dos forms e requisições da pagina
+- Template --> Materialize
+
+https://docs.djangoproject.com/en/3.0/intro/tutorial01/
+https://github.com/smkbarbosa/pescar
+https://github.com/smkbarbosa/eventex
+
+Instalar Bibliotecas
+
+pip install whitenoise gunicorn
+
+whitenoise = Biblioteca utilizada para apresentar arquivos estáticos que o Django não consegue fazer
+
+gunicorn = Servidor para rodar a aplicação em produção
