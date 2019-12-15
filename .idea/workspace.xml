@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc5f63a-d0cd-4a5a-90e4-8c89f34a96c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Estudar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0002_auto_20191213_1209.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0003_auto_20191213_1821.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0004_candidato_vagas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0005_auto_20191214_1325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0006_auto_20191214_1908.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0007_candidato_vagas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0008_auto_20191214_2158.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0009_auto_20191214_2226.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0010_auto_20191214_2311.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0011_experiencia_profissional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0012_auto_20191215_0053.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidato/migrations/0013_auto_20191215_1009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0002_auto_20191212_1427.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0003_auto_20191212_1735.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0004_auto_20191214_1325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0005_auto_20191214_1908.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/empresa/migrations/0006_auto_20191214_2226.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0005_auto_20191209_2345.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0006_auto_20191212_1427.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0007_auto_20191213_1141.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0008_vagas_candidato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0009_remove_vagas_candidato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0010_auto_20191214_1325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/migrations/0011_auto_20191215_0035.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/django_agile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/django_ai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/django_boy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/django_index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/index.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/index_django.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/static/images/vagas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/templates/vagas/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagas/templates/vagas/listagem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidato/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/candidato/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidato/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/candidato/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empresa/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/empresa/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empresa/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/empresa/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/vagas/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vagas/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas/templates/vagas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vagas/templates/vagas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vagas/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas_de_emprego/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vagas_de_emprego/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagas_de_emprego/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vagas_de_emprego/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -278,7 +227,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49747476" visible="true" weight="0.28050596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49747476" visible="true" weight="0.28050596" />
       <window_info id="Structure" order="1" sideWeight="0.50252527" side_tool="true" weight="0.3764881" />
       <window_info id="Favorites" order="2" sideWeight="0.50252527" side_tool="true" weight="0.3764881" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +238,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" visible="true" weight="0.49590835" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49776787" visible="true" weight="0.49590835" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.6628478" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -606,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
